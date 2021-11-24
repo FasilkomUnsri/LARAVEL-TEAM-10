@@ -1,0 +1,82 @@
+body{
+    background:white;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+ul, li, p, h1, h2, h3, body, html{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    padding:  10px 20px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: -5px 5px 10px -10px #2d3748;
+}
+header .kiri, header .kanan{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header .kiri{
+    text-transform: uppercase;
+}
+header .kanan{
+    margin-left: auto;
+}
+header a{
+    padding: 10px;
+    font-weight: 600;
+}
+header li:first-child a{
+    padding: 10px 0 0 0;
+}
+.font-putih{
+    color:white;
+}
+.hijau{
+    background: #1e8361;
+}
+.content-home{
+    max-width: 1440px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.content-home-atas{
+    padding: 15px 0;
+}
+.tahun50{
+    margin: 15px 0 0;
+    display: flex;
+}
+.tahun50 .list{
+    width: 50%;
+    background: #c91e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tahun50 .list.foto img{
+    width: 50%;
+    object-fit: cover;
+}
+.tahun50 .list .desc{
+    padding: 50px;
+}
+.tahun50 .list button{
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding:  5 px 10px;
+}
+.tahun50 .list button.btn-putih{
+    border: 1px solid #fff;
+    color: white;
+}
