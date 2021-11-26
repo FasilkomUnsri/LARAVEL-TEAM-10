@@ -116,4 +116,26 @@ footer{
     border-top: 1px solid #666;
 }
 
+footer .footer-l2{
+    width: 1350;
+    margin: auto;
+}
+footer .sitemap{
+    display: flex;
+}
+
+footer .sitemap .list{
+    margin-right: 20px;
+}
+
+footer .sitemap .list ul li{
+    display: block;
+}
+
+footer .sitemap .list ul li a{
+    display: block;
+    padding: 5px 0;
+    color : #666;
+
+}
 
