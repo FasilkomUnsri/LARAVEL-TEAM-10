@@ -24,7 +24,26 @@
             <li><a href="{{ route('site/index') }}">Join now</a></li>
         </ul>
     </header>
-    {{ $slot }}
+    <main id="content">
+         {{ $slot }}
+    </main>
+        
+    <section>
+        <footer><div class="sitemap">
+            <div class="List">
+                <h3>About Us/<h3>
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Coffee</a></li>
+                    <li><a href="#">Stories and News</a></li>
+                    <li><a href="#">Starbucks Archive</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Customer Service </a></li>
+                </ul>
+            </div>
+       </div></footer>
+       
+    
 </main>
 </body>
 </html>
