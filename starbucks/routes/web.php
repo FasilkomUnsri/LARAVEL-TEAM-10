@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 Route::get('/index', function () {
     return view('site/index');
-})->name(name: 'site/index');
+})->name('site/index');

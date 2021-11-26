@@ -49,6 +49,10 @@ header li:first-child a{
     font-size: 30px;
     color: white;
 }
+.content-home .note {
+    margin: 10px 0;
+    padding: 10px 0;
+}
 .content-home-atas{
     padding: 15px 0;
 }
@@ -80,3 +84,4 @@ header li:first-child a{
     border: 1px solid #fff;
     color: white;
 }
+
