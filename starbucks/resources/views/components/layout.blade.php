@@ -19,7 +19,7 @@
         </ul>
 
         <ul class="kanan">
-            <li><a href="{{ route('site/index') }}">Find a store</a></li>
+            <li><a href="{{ route('site/index') }}"><i class="fas fa-map-marked-alt"></i> Find a store</a></li>
             <li><a href="{{ route('site/index') }}">Sign in</a></li>
             <li><a href="{{ route('site/index') }}">Join now</a></li>
         </ul>
@@ -59,5 +59,34 @@
        
     </footer>
 </main>
-</body>
-</html>
+</div>
+<div class="list">
+    <h3>For Bussiness Partners</h3>
+    <ul>
+        <li><a href="#">Landlord Support Center</a></li>
+        <li><a href="#">Suppliers</a></li> 
+        <li><a href="#">Corporate Gift Card Sales</a></li>
+        <li><a href="#">Officce and foodservice Coffee</a></li>
+    </ul>
+</div>
+<div class="list">
+    <h3>Order and Pickup</h3>
+    <ul>
+        <li><a href="#">Order on the App</a></li>
+        <li><a href="#">Order on the Web</a></li> 
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Order and Pickup Options</a></li>
+        <li><a href="#">Explore and Find Coffe for Home</a></li>
+    </ul>
+</div>
+</div>
+<ul class="sosmed">
+    <li><a href="a"><i class="fab fa-sportify"></i></a></li>
+    <li><a href="a"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="a"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="a"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="a"><i class="fab fa-pinterest"></i></a></li>
+    <li><a href="a"><i class="fab fa-dribbble"></i></a></li>
+</ul>
+</div>
+</footer>
