@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Name;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +24,14 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('site/index');
 })->name('site/index');
+
+Route::get('/about-us', function () {
+    return view('site/about');
+})->name('site/about');
+
+Route::get('/login', [LoginController::class, 'index']);
+Route::post('/login', [LoginController::class, 'authenticate']);
+
+
+Route::get('/register', [RegisterController::class, 'index']);
+Route::post('/register', [RegisterController::class, 'store']);
