@@ -56,6 +56,10 @@ header li:first-child a{
 .content-home-atas{
     padding: 15px 0;
 }
+.content-home .note{
+    margin: 10px 0;
+    padding: 20px 0;
+}
 .tahun50{
     margin: 15px 0 0;
     display: flex;
@@ -83,5 +87,76 @@ header li:first-child a{
 .tahun50 .list button.btn-putih{
     border: 1px solid #fff;
     color: white;
+}
+.tahun50 p{
+    font-size: 20px;
+}
+.tahun50 .List .reward{
+    height: 590px;
+}
+.tahun50 .List .reward.Left{
+    margin-right: 15px;
+}
+.tahun50 .List .reward.right{
+    margin-left: 15px;
+}
+.tahun50 .List .reward .foto{
+    margin-bottom: 10px;
+}
+.tahun50 .List .reward p{
+    margin-bottom: 10px;
+}
+.tahun50 .List .reward a{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+footer{
+    border-top: 1px solid #acc;
+    padding: 30px 0;
+}
+footer .footer-l2{
+    width: 1350;
+    margin: auto;
+}
+footer .privacy{
+    display: flex;
+    list-style: none;
+    padding: 10px 0;
+}
+footer .privacy li{
+    border-right: 1px solid black;
+}
+footer .sosmed{
+    display: flex;
+    list-style: none;
+    padding: 10px 0;
+}
+footer .sosmed li{
+    margin: 0 10px 0 0;
+    font-size: 30px;}
+footer .sitemap{
+    display: flex;
+    border-bottom: 1px solid #acc;
+    padding: 0 0 20px;
+}
+footer .sitemap .list{
+    margin-right: 50px;
+}
+
+footer .sitemap .list ul li{
+    display: block;
+}
+
+footer .sitemap .list ul li a{
+    display: block;
+    padding: 5px 0;
+    color : #666;
+
+}
+footer .copyrights{
+    padding: 10px 0 0;
+    color: #666;
 }
 
