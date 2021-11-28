@@ -14,80 +14,78 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
     
     <!-- Custom styles for this template -->
     <link href="bootstrap/bootstrap/css/login.css" rel="stylesheet">
   </head>
-  <body class="text-center">
-    
-<main class="form-registration">
-  <form action="/register" method="POST">
-    @csrf
-    
-    <h1 class="h3 mb-3 fw-normal">REGISTRASI FORM</h1>
+   
+  <body class="img js-fullheight" style="background-image: url(images/resto.webp);">
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center mb-5">
+            <h2 class="heading-section">Kelompok 10</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="login-wrap p-0">
+              <h3 class="mb-4 text-center">Silahkan isi form register</h3>
+               <form action="/register" method="POST" class="signin-form">
+                @csrf
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control @error('name')is-invalid @enderror" id="name" placeholder="Username" required value="{{ old('name') }}">
+                  @error('name')
 
-    <div class="form-floating">
-      <input type="text" name="name" class="form-control @error('name')is-invalid @enderror" id="name" placeholder="Name" required value="{{ old('name') }}">
-      <label for="name">Name</label>
-      @error('name')
+                  <div class="invalid-feedback">
+                   {{ $message }}
+                  </div>
+                  @enderror
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control @error('email')is-invalid @enderror" id="email" placeholder="Email" required value="{{ old('email') }}">
+                   @error('email')
+                       <div class="invalid-feedback">
+                          {{ $message }}
+                          </div>
+                              
+                          @enderror
+                      </div>
+                </div>
+                <div class="form-group">
+                  <input type="password" name="password" class="form-control @error('password')is-invalid @enderror" id="floatingPassword" placeholder="Password" required >
+                  @error('password')
+            
+                  <div class="invalid-feedback">
+                   {{ $message }}
+                  </div>
+                      
+                  @enderror
+              </div>
+              <div class="form-group">
+                <input type="password" name="password" class="form-control @error('password')is-invalid @enderror" id="floatingPassword" placeholder="Konfirmasi Password" required >
+              </div>
+               
 
-      <div class="invalid-feedback">
-       {{ $message }}
+               <div class="form-group">
+                  <button type="submit" class="form-control btn btn-primary submit px-3">Register</button>
+                </div>
+                <div class="form-group d-md-flex">
+                  <small>Sudah ada Akun? silahkan <a href="/register" style="color: #fff">Login</a></small>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-          
-      @enderror
-    </div>
-
-    <div class="form-floating">
-        <input type="email" name="email" class="form-control @error('email')is-invalid @enderror" id="email" placeholder="Email" required value="{{ old('email') }}">
-        <label for="email">Email</label>
-        @error('email')
-
-        <div class="invalid-feedback">
-         {{ $message }}
-        </div>
-            
-        @enderror
-    </div>
-
-    <div class="form-floating">
-        <input type="password" name="password" class="form-control @error('password')is-invalid @enderror" id="floatingPassword" placeholder="Password" required >
-        <label for="floatingPassword">Password</label>
-        @error('password')
-
-        <div class="invalid-feedback">
-         {{ $message }}
-        </div>
-            
-        @enderror
-    </div>
+    </section>
   
-  
-    
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
-    
-  </form>
-  <small><a href="/login">Login</small>
-</main>
-
+    <script src="jquery/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="bootsrap/bootsrap/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
     
   </body>
 </html>
+

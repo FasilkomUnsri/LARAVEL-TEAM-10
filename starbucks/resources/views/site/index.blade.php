@@ -18,7 +18,7 @@
             <div class="list">
                 <div class="desc">
                     <h1>Nasi Goreng Spesial</h1>
-                    <p>Our Irish Cream Cold Brew is dressed upthe holidays with sweet cream cold foam and a strike of cocoa.</p>
+                    <p>Paket hemat #BarengTeman, makan berdua cukup bayar Rp 20.000 saja untuk setiap produk nasi goreng special</p>
                     <button class="btn-putih"> Pesan sekarang </button> 
                 </div>
             </div>
