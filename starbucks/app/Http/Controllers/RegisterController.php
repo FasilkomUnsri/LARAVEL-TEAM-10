@@ -22,7 +22,7 @@ class RegisterController extends Controller
 
         user::create( $validateData);
 
-        $request->session()->flash('succes','Registrasi Berhasil,Gass Login');
+        $request->session()->flash('succes','Berhasil membuat akun');
 
         return redirect('/login');
     }

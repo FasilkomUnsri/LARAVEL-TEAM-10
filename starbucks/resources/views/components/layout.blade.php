@@ -20,7 +20,7 @@
             <li><a href="{{ route('site/index') }}">Beranda</a></li>
             <li><a href="{{ route('site/index') }}">Menu Makanan</a></li>
             <li><a href="https://goo.gl/maps/osUpP6MeRsBqQdB6A"><i class="fas fa-map-marked-alt"></i> Mencari toko</a></li>
-            <li><a href="{{ route('site/index') }}">Logout</a></li>
+            <li><a href="/login">Logout</a></li>
         </ul>
     </header>
     <main id="content">
