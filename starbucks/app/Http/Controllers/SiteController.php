@@ -25,4 +25,10 @@ class SiteController extends Controller
     public function sponsor(){
         return view('site/sponsor');
     }
+    public function online(){
+        return view('site/online');
+    }
+    public function lokasi(){
+        return view('site/lokasi');
+    }
 }

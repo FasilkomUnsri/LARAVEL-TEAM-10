@@ -41,6 +41,14 @@ Route::get('/sponsor', function () {
     return view('site/sponsor');
 })->name('site/sponsor');
 
+Route::get('/order', function () {
+    return view('site/online');
+})->name('site/online');
+
+Route::get('/lokasi', function () {
+    return view('site/lokasi');
+})->name('site/lokasi');
+
 Route::get('/login', [LoginController::class, 'index']);
 Route::post('/login', [LoginController::class, 'authenticate']);
 

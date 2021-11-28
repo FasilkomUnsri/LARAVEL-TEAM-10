@@ -136,7 +136,7 @@ header li:first-child a{
 
 footer{
     border-top: 1px solid #ccc;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 footer .footer-l2{
     width: 1350px;
@@ -228,8 +228,20 @@ footer .copyrights{
     line-height: 25px;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50;
+  }
 
-
+.center-lokasi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 
 
 

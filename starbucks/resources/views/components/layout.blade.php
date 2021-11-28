@@ -19,7 +19,7 @@
         <ul class="kanan">
             <li><a href="{{ route('site/index') }}">Beranda</a></li>
             <li><a href="{{ route('site/index') }}">Menu Makanan</a></li>
-            <li><a href="https://goo.gl/maps/osUpP6MeRsBqQdB6A"><i class="fas fa-map-marked-alt"></i> Mencari toko</a></li>
+            <li><a href="https://goo.gl/maps/osUpP6MeRsBqQdB6A"><i class="fas fa-map-marked-alt"></i> Mencari Restaurant</a></li>
             <li><a href="/login">Logout</a></li>
         </ul>
     </header>
@@ -48,17 +48,17 @@
             <div class="list">
                 <h3>Order and Pickup</h3>
                 <ul>
-                    <li><a href="#">Order melalui app</a></li>
-                    <li><a href="#">Makan di tempat</a></li>
+                    <li><a href="{{ route('site/online') }}">Order melalui app</a></li>
+                    <li><a href="{{ route('site/lokasi') }}">Makan di tempat</a></li>
                 </ul>
             </div>
             <div class="list">
             <h3>Social Media</h3>
             <ul>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">Instagram</a></li> 
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
+                <li><a href="https://www.youtube.com/channel/UC9WjLdN9oXMYlt1YsU9qxTA">Youtube</a></li>
+                <li><a href="https://www.instagram.com/rayhan_muftii/">Instagram</a></li> 
+                <li><a href="https://www.facebook.com/Rayhanmufti123/">Facebook</a></li>
+                <li><a href="{{ route('site/index') }}">Twitter</a></li>
             </ul>
         </div>
         <div class="copyrights">© 2021 Kelompok 10 Resto. All rights reserved.</div>
