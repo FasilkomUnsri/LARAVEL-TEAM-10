@@ -16,4 +16,13 @@ class SiteController extends Controller
     {
         return view('view/login');
     }
+    public function supplier(){
+        return view('site/supplier');
+    }
+    public function penghargaan(){
+        return view('site/penghargaan');
+    }
+    public function sponsor(){
+        return view('site/sponsor');
+    }
 }

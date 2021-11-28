@@ -29,6 +29,18 @@ Route::get('/about-us', function () {
     return view('site/about');
 })->name('site/about');
 
+Route::get('/supplier', function () {
+    return view('site/supplier');
+})->name('site/supplier');
+
+Route::get('/penghargaan', function () {
+    return view('site/penghargaan');
+})->name('site/penghargaan');
+
+Route::get('/sponsor', function () {
+    return view('site/sponsor');
+})->name('site/sponsor');
+
 Route::get('/login', [LoginController::class, 'index']);
 Route::post('/login', [LoginController::class, 'authenticate']);
 

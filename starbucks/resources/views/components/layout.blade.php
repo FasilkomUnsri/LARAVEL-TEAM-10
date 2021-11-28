@@ -34,18 +34,14 @@
                 <h3>Tentang Kami<h3>
                 <ul>
                     <li><a href="{{ route('site/about') }}">Perusahaan</a></li>
-                    <li><a href="#">Cerita dan berita</a></li>
-                    <li><a href="#">Penghargaan</a></li>
-                    <li><a href="#">Relasi Investor</a></li>
-                    <li><a href="#">Customer Service </a></li>
+                    <li><a href="{{ route('site/penghargaan') }}">Penghargaan</a></li>
                 </ul>
             </div>
             <div class="list">
                 <h3>Partner Bisnis</h3>
                 <ul>
-                    <li><a href="#">Suppliers</a></li> 
-                    <li><a href="#">Sponsor</a></li>
-                    <li><a href="#">Endorse</a></li>
+                    <li><a href="{{ route('site/supplier') }}">Suppliers</a></li> 
+                    <li><a href="{{ route('site/sponsor') }}">Sponsor</a></li>
                 </ul>
             </div>
         
@@ -53,9 +49,6 @@
                 <h3>Order and Pickup</h3>
                 <ul>
                     <li><a href="#">Order melalui app</a></li>
-                    <li><a href="#">Order melalui website</a></li> 
-                    <li><a href="#">Delivery</a></li>
-                    <li><a href="#">Order and Pickup Options</a></li>
                     <li><a href="#">Makan di tempat</a></li>
                 </ul>
             </div>
