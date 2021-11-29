@@ -188,6 +188,7 @@ footer .copyrights{
 .container-about{
     width: 720px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 .container-about figure img{
     width: 100%;
@@ -236,12 +237,7 @@ footer .copyrights{
     margin-top: 50;
   }
 
-.center-lokasi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
+  
 
 
 
