@@ -53,7 +53,7 @@
                   </tbody>
                 </table>
                  {{ $artikels->links() }}
-                 <a href="#" class="solid" >Menu lainnya?Silahkan cek di gofood kami</a>
+                 <a href="{{ route('site/online') }}" class="solid" >Menu lainnya?Silahkan cek di gofood kami</a>
               </div>
             </div>
           </div>
