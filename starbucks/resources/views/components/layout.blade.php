@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="toastr/toastr.min.css">
 </head>
 <body>
 <main>
@@ -18,7 +19,7 @@
 
         <ul class="kanan">
             <li><a href="{{ route('site/index') }}">Beranda</a></li>
-            <li><a href="{{ route('site/index') }}">Menu Makanan</a></li>
+            <li><a href="/artikel">Menu Makanan</a></li>
             <li><a href="https://goo.gl/maps/osUpP6MeRsBqQdB6A"><i class="fas fa-map-marked-alt"></i> Mencari Restaurant</a></li>
             <li><a href="/login">Logout</a></li>
         </ul>

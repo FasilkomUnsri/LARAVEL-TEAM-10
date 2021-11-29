@@ -5,7 +5,7 @@
         <figure>
             <img src="{{ \Illuminate\Support\Facades\URL::asset('/images/gofood.webp') }}" width="50%" height="50%"
                  alt="gofood"/>
-                 <a class="center" href="#" class="solid" >Pesan sekarang</a>
+                 <a class="center" href="https://www.gojek.com/gofood/" class="solid" >Pesan sekarang</a>
         </figure>
      </section>
 </x-layout>

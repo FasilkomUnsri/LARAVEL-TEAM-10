@@ -31,4 +31,9 @@ class SiteController extends Controller
     public function lokasi(){
         return view('site/lokasi');
     }
+    public function artikel()
+    {
+        return view('artikel/index');
+    }
 }
+

@@ -19,7 +19,7 @@
                 <div class="desc">
                     <h1>Nasi Goreng Spesial</h1>
                     <p>Paket hemat #BarengTeman, makan berdua cukup bayar Rp 20.000 saja untuk setiap produk nasi goreng special</p>
-                    <button class="btn-putih"> Pesan sekarang </button> 
+                    <button> <a class="btn-putih" href="{{ route('site/online') }} ">Pesan sekarang</a></button>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <div class="desc">
                     <h2>Es Teh Manis</h2>
                     <p>Makan di iringi dengan es teh yang segar dan banyak. Hanya Rp.5.000 saja!!</p>
-                    <button class="btn-putih"> Pesan sekarang </button>  
+                    <button> <a class="btn-putih" href="{{ route('site/online') }} ">Pesan sekarang</a></button> 
                 </div>
             </div>
             <div class="list">
@@ -53,7 +53,7 @@
                 <div class="desc">
                     <h3>Ayam Bakar</h3>
                     <p>Makan Ayam bakar dengan nasi dan cocolan sambal terasi yang nikmat.</p>
-                    <button class="btn-putih"> Pesan sekarang </button> 
+                    <button> <a class="btn-putih" href="{{ route('site/online') }} ">Pesan sekarang</a></button>
                 </div>
             </div>
         </div>
@@ -65,7 +65,7 @@
                 <div class="desc">
                     <h4>Pesan kopi jika ngantuk.</h4>
                     <p>Anda ngantuk tapi banyak kerjaan ? Silahkan pesan kopi kami! Buka sampai pukul 24.00!</p>
-                    <button class="btn-putih"> Pesan sekarang </button>  
+                    <button> <a class="btn-putih" href="{{ route('site/online') }} ">Pesan sekarang</a></button>
                 </div>
             </div>
             <div class="list">

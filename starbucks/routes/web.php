@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use PhpParser\Node\Name;
+use App\Http\Controllers\ArtikelController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 
@@ -20,6 +20,7 @@ use App\Http\Controllers\RegisterController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('artikel', ArtikelController::class);
 
 Route::get('/index', function () {
     return view('site/index');
