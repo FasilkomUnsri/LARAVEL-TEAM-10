@@ -22,6 +22,7 @@
             <div class="col-md-12">
               <div class="card">
                 <div class="card-body">
+                  <a href="{{ route('artikel.create') }}" class="btn btn-md btn-success mb-3">TAMBAH MAKANAN</a>
                   <table class="table table-bordered">
                     <thead>
                       <tr>
