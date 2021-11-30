@@ -20,7 +20,7 @@
                                 @csrf
 
                                 <div class="form-group">
-                                    <label class="font-weight-bold">COVER GAME</label>
+                                    <label class="font-weight-bold"><b>GAMBAR MAKANAN </b></label>
                                     <input type="file" class="form-control @error('gambar') is-invalid @enderror" name="gambar">
 
                                     @error('gambar')
@@ -31,7 +31,7 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label class="font-weight-bold">JUDUL GAME</label>
+                                    <label class="font-weight-bold"><b>NAMA MAKANAN</b></label>
                                     <input type="text" class="form-control @error('judul') is-invalid @enderror" name="judul" value="{{ old('judul') }}" placeholder="Masukkan Judul Artikel">
 
                                     @error('judul')
@@ -42,7 +42,7 @@
                                 </div>
 
                                 <div class="form-group mb-5">
-                                    <label class="font-weight-bold">GENRE</label>
+                                    <label class="font-weight-bold"><b>HARGA</b></label>
                                     <textarea class="form-control @error('isi') is-invalid @enderror" id="isi" name="isi" rows="5" placeholder="Masukkan Isi Artikel">{{ old('isi') }}</textarea>
 
                                     @error('isi')
